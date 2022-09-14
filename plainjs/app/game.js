@@ -3,8 +3,8 @@ import Board from '../components/board.js';
 import Status from '../components/status.js';
 import StepList from '../components/stepList.js';
 
-import State from 'https://cdn.jsdelivr.net/gh/yammerz/state@master/state.js';
-//import State from '../state/state.js';
+//import State from 'https://cdn.jsdelivr.net/gh/yammerz/state@master/state.js';
+import State from '../state/state.js';
 import { getPlayer, calculateWinner} from './helpers.js';
 
 export default class Game extends Container {
