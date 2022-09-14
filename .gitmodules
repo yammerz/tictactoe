@@ -1,0 +1,3 @@
+[submodule "plainjs/state"]
+	path = plainjs/state
+	url = https://github.com/yammerz/state.git
